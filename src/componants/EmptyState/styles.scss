@@ -1,0 +1,13 @@
+@import '../../styles/index.scss';
+.emptyState {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	background-color: $card-border;
+	padding: 50px;
+	color: $white-color;
+
+	.fa-list-ul {
+		margin-right: 15px;
+	}
+}

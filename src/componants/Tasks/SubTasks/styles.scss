@@ -1,0 +1,33 @@
+@import '../../../styles/index.scss';
+.subTask {
+	padding: 15px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+
+	.fa-pen {
+		color: $edit-icons;
+		cursor: pointer;
+	}
+}
+
+.subTaskform {
+	button {
+		margin-top: 15px;
+	}
+
+	.checkSection {
+		margin: 10px 0;
+	}
+}
+
+.checkedInput {
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+
+.close {
+	margin-left: auto;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}

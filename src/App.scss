@@ -1,0 +1,12 @@
+@import './styles/index.scss';
+html,
+body {
+	overflow-x: hidden;
+	background-color: $body-bc;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.ReactModal__Overlay {
+	background-color: $bc-Modal-color !important;
+}

@@ -1,0 +1,19 @@
+@import '../../styles/index.scss';
+.nav {
+	.selected {
+		border-left: 5px solid $card-border !important;
+		background: transparent !important;
+		color: $card-border !important;
+		font-weight: 500;
+	}
+
+	.nav-link {
+		color: $white-color;
+		border-radius: 0 !important;
+		border-bottom: 1px solid $gray-border;
+
+		&:hover {
+			color: $card-border !important;
+		}
+	}
+}

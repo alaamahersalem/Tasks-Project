@@ -1,0 +1,10 @@
+@import '../../styles/index.scss';
+.ErrorPage {
+	text-align: center;
+	color: $white-color;
+	padding: 10%;
+
+	.fa-info-circle {
+		font-size: 30px;
+	}
+}

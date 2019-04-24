@@ -1,0 +1,71 @@
+{
+  "tasks": [
+    {
+      "name": "task 1",
+      "dueDate": "2019-01-16",
+      "priority": "Low",
+      "category": "",
+      "categoryId": 1,
+      "priorityId": 3,
+      "description": " description task 1f",
+      "id": 1
+    },
+    {
+      "name": "task 2",
+      "dueDate": "2019-01-10",
+      "priority": "Medium",
+      "category": "",
+      "categoryId": 1,
+      "priorityId": 2,
+      "description": "description task2",
+      "id": 2
+    },
+    {
+      "name": "task 3",
+      "dueDate": "2019-01-27",
+      "priority": "Medium",
+      "category": "Daily",
+      "categoryId": 3,
+      "priorityId": 2,
+      "description": "description task3",
+      "id": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Monthly"
+    },
+    {
+      "id": 2,
+      "name": "Weekly"
+    },
+    {
+      "id": 3,
+      "name": "Daily"
+    }
+  ],
+  "priorities": [
+    {
+      "id": 1,
+      "name": "Heigh"
+    },
+    {
+      "id": 2,
+      "name": "Medium"
+    },
+    {
+      "id": 3,
+      "name": "Low"
+    }
+  ],
+  "subTasks": [
+    {
+      "item": "s",
+      "done": false,
+      "optional": false,
+      "taskId": "2",
+      "id": 1
+    }
+  ]
+}
